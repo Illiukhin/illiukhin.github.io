@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Форма отзыва</title>
+  </head>
+  <body>
+    <form action="" method="">
+        <label>
+            ФИО
+            <input type="text" name="fio" placeholder="Иванов Иван Иванович" required>
+        </label>
+        <br>
+        <br>
+        <label>
+            Возраст
+            <input type="number" name="age">
+        </label>
+        <br>
+        <br>
+        <label>
+            Email
+            <input type="email" name="email">
+        </label>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Пол</legend>
+             <label>
+            <input type="radio" name="sex" value="man" checked>
+            муж
+        </label>
+        <label>
+            <input type="radio" name="sex" value="woman">
+            жен
+        </label>
+        </fieldset>
+        <br>
+        <br>
+        <select name="place" multiple>
+            <option value="1">Ресторан 1</option>
+            <option value="2">Ресторан 2</option>
+            <option value="3">Ресторан 3</option>
+        </select>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Что понравилось?</legend>
+            <label>
+                <input type="checkbox" name="fav" value="place">Место
+            </label>
+            <label>
+                <input type="checkbox" name="fav" value="people">Люди
+            </label>
+            <label>
+                <input type="checkbox" name="fav" value="eat">Еда
+            </label>
+        </fieldset>
+        <br>
+        <br>
+        <textarea name="comment" placeholder="Коментарий"></textarea>
+        <br>
+        <br>
+        <input type="file" name="bill">
+        <br>
+        <br>
+        <input type="button" value="Disable me" disabled>
+        <br>
+        <br>
+        <button type="submit">Отправить</button>
+    </form>
+
+  </body>
+</html>
+
+<!--checked выбор этого варианта по умолчанию-->
+<!--multiple выбор нескольких вариантов сразу-->
+<!--required поле обязательно к заполнению-->
+<!--disabled блокируем поле-->
