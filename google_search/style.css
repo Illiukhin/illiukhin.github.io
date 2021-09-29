@@ -36,6 +36,8 @@ body {
 }
 
 .form-search img[src="logo.jpg"] {
+             margin: 10px;
+
               display: block;
               margin-left: auto;
               margin-right: auto;
