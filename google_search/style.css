@@ -1,3 +1,6 @@
+body {
+    background-color:#bff2b8;
+}
 
 .form-search  {
             text-align: center;
@@ -9,15 +12,13 @@
 
 .form-search input[type="text"] {
              margin: 5px;
-	         border-radius: 20px;
+	         border-radius: 25px;
 	         height: 44px;
 	         width: 75%;
              background-color: #eee;
              font-size: 20px;
              border: 3px solid orange;
              outline: none;
-
-
 }
 
 .form-search input[type="submit"] {
@@ -39,6 +40,7 @@
               margin-left: auto;
               margin-right: auto;
               width: 50%;
+              border: 3px solid springgreen;
 }
 
 .form-search img[src="mic.png"] {
@@ -56,6 +58,17 @@ fieldset {
     overflow: hidden;
     float: right;
     background-color: #eee;
+    border-radius: 25px;
     border: 3px solid red;
+}
+
+p {
+    overflow: hidden;
+    bottom: 0;
+    position: absolute;
+    width: 97%;
+    color:black;
+    text-decoration: overline;
+    text-decoration-color: red;
 }
 
