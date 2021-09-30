@@ -17,8 +17,9 @@ body {
 	         width: 75%;
              background-color: #eee;
              font-size: 20px;
-             border: 3px solid orange;
+             border: 5px solid orange;
              outline: none;
+             border-style: double;
 }
 
 .form-search input[type="submit"] {
@@ -60,7 +61,7 @@ fieldset {
     overflow: hidden;
     float: right;
     background-color: #eee;
-    border-radius: 25px;
+    border-radius: 250px 100px;
     border: 3px solid red;
 }
 
