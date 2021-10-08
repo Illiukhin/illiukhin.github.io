@@ -1,11 +1,9 @@
-body {
-    background-color:#bff2b8;
-}
+
 
 .form-search  {
             text-align: center;
             position: fixed;
-            top: 15%;
+            top: 3%;
             left: 25%;
             width: 50%;
 }
@@ -17,52 +15,38 @@ body {
 	         width: 75%;
              background-color: #eee;
              font-size: 20px;
-             border: 5px solid orange;
+             border: 5px solid green;
              outline: none;
              border-style: double;
 }
-
-.form-search input[type="submit"] {
-             margin: 10px;
-	         border-radius: 25%;
-	         height: 44px;
-	         width: 25%;
-             background-color: #eee;
-             font-size: 20px;
-             border: 3px solid blue;
-             cursor: pointer;
-
-
-
+.
 }
 
 .form-search img[src="logo.jpg"] {
               margin: 10px;
-              border-radius: 25px;
+              border-radius: 5px;
               display: block;
               margin-left: auto;
               margin-right: auto;
               width: 50%;
-              border: 3px solid springgreen;
 }
 
-.form-search img[src="mic.png"] {
-       margin-left: -45px;
-       margin-right: auto;
+
+.camera {
+              margin: 10px;
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 10%;
+
 }
+
 div {
      text-align:right;
      padding:10px;
      margin:10px;
 
-}
 
-fieldset {
-    overflow: hidden;
-    float: right;
-    background-color: #eee;
-    border-radius: 250px 100px;
-    border: 3px solid red;
 }
 
 p {
@@ -75,4 +59,15 @@ p {
     text-decoration-color: red;
     font-family:Comic Sans MS ,sans-serif;
 }
+button {
+    border-radius: 12px;
+    border: 2px solid grey;
+}
+.img_search {
+     text-align: center;
+     position: fixed;
+     top: 57%;
+     left: 25%;
+     width: 50%;
 
+}
