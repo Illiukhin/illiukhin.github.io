@@ -1,5 +1,4 @@
 
-
 .form-search  {
             text-align: center;
             position: fixed;
@@ -37,16 +36,13 @@
               display: block;
               margin-left: auto;
               margin-right: auto;
-              width: 10%;
-
+              width: auto;
 }
 
 div {
      text-align:right;
      padding:10px;
      margin:10px;
-
-
 }
 
 p {
@@ -59,15 +55,8 @@ p {
     text-decoration-color: red;
     font-family:Comic Sans MS ,sans-serif;
 }
+
 button {
     border-radius: 12px;
     border: 2px solid grey;
-}
-.img_search {
-     text-align: center;
-     position: fixed;
-     top: 57%;
-     left: 25%;
-     width: 50%;
-
 }
