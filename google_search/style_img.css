@@ -17,6 +17,8 @@
              border: 5px solid green;
              outline: none;
              border-style: double;
+             background: #fce8cf;
+
 }
 .
 }
@@ -59,4 +61,5 @@ p {
 button {
     border-radius: 12px;
     border: 2px solid grey;
+    background:#69f542;
 }
